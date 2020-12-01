@@ -1,5 +1,3 @@
-# timelog
-
 This is the code for a simple iPhone app for tracking time.
 It demonstrates use of:
 

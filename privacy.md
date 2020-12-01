@@ -11,3 +11,5 @@ On your device, the app stores:
 
 If you delete the app, all of your data will be deleted as well.
 Note, if you offload the app your data will not be deleted until you explicitly delete it in your phone's settings.
+
+[back](https://www.jkk.name/timelog/)
