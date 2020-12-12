@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600FA0012516A1AA0021D4CA /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600FA0002516A1A90021D4CA /* CoreDataManager.swift */; };
+		6011DFD125184ABC002091AE /* TimerLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B192B0249313C3001BE2F4 /* TimerLabelView.swift */; };
+		605EBCEF2516F23200451CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B1929E24931301001BE2F4 /* Assets.xcassets */; };
+		60878E7D24D7489200A2A7F4 /* TimingStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60878E7C24D7489200A2A7F4 /* TimingStatsView.swift */; };
+		60878E7F24DE356000A2A7F4 /* TimingBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60878E7E24DE355F00A2A7F4 /* TimingBoxView.swift */; };
+		6094A1492517FD8200BE4DAE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600FA0002516A1A90021D4CA /* CoreDataManager.swift */; };
+		60B19296249312FF001BE2F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B19295249312FF001BE2F4 /* AppDelegate.swift */; };
+		60B19298249312FF001BE2F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B19297249312FF001BE2F4 /* SceneDelegate.swift */; };
+		60B1929B249312FF001BE2F4 /* TimeLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60B19299249312FF001BE2F4 /* TimeLog.xcdatamodeld */; };
+		60B1929D249312FF001BE2F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B1929C249312FF001BE2F4 /* ContentView.swift */; };
+		60B1929F24931301001BE2F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B1929E24931301001BE2F4 /* Assets.xcassets */; };
+		60B192A224931301001BE2F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B192A124931301001BE2F4 /* Preview Assets.xcassets */; };
+		60B192A524931301001BE2F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60B192A324931301001BE2F4 /* LaunchScreen.storyboard */; };
+		60B192B1249313C3001BE2F4 /* TimerLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B192B0249313C3001BE2F4 /* TimerLabelView.swift */; };
+		60EF378824B94F5200DD6801 /* TimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF378724B94F5200DD6801 /* TimingView.swift */; };
+		60EF378A24B951BE00DD6801 /* TimingSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EF378924B951BE00DD6801 /* TimingSectionView.swift */; };
+		60FD763325057BB200CC2E2C /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FD763225057BB200CC2E2C /* NotificationCenter.framework */; };
+		60FD763625057BB200CC2E2C /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FD763525057BB200CC2E2C /* TodayViewController.swift */; };
+		60FD763925057BB200CC2E2C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60FD763725057BB200CC2E2C /* MainInterface.storyboard */; };
+		60FD763D25057BB300CC2E2C /* Time Tracking Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 60FD763025057BB200CC2E2C /* Time Tracking Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		60FD765C25058AF400CC2E2C /* TimeLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60B19299249312FF001BE2F4 /* TimeLog.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60FD763B25057BB300CC2E2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60B1928A249312FF001BE2F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60FD762F25057BB200CC2E2C;
+			remoteInfo = "Time Tracking Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60FD763E25057BB300CC2E2C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				60FD763D25057BB300CC2E2C /* Time Tracking Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		600FA0002516A1A90021D4CA /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		60878E7C24D7489200A2A7F4 /* TimingStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingStatsView.swift; sourceTree = "<group>"; };
+		60878E7E24DE355F00A2A7F4 /* TimingBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingBoxView.swift; sourceTree = "<group>"; };
+		60B19292249312FF001BE2F4 /* Tracker-JKK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tracker-JKK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B19295249312FF001BE2F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60B19297249312FF001BE2F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		60B1929A249312FF001BE2F4 /* Tracker_JKK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tracker_JKK.xcdatamodel; sourceTree = "<group>"; };
+		60B1929C249312FF001BE2F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60B1929E24931301001BE2F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60B192A124931301001BE2F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60B192A424931301001BE2F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60B192A624931301001BE2F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B192B0249313C3001BE2F4 /* TimerLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerLabelView.swift; sourceTree = "<group>"; };
+		60EF378724B94F5200DD6801 /* TimingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingView.swift; sourceTree = "<group>"; };
+		60EF378924B951BE00DD6801 /* TimingSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingSectionView.swift; sourceTree = "<group>"; };
+		60FD763025057BB200CC2E2C /* Time Tracking Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Time Tracking Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FD763225057BB200CC2E2C /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		60FD763525057BB200CC2E2C /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		60FD763825057BB200CC2E2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		60FD763A25057BB200CC2E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60FD765A250589C800CC2E2C /* Time Tracking Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Time Tracking Widget.entitlements"; sourceTree = "<group>"; };
+		60FD765B250589E200CC2E2C /* Tracker-JKK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Tracker-JKK.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60B1928F249312FF001BE2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FD762D25057BB200CC2E2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FD763325057BB200CC2E2C /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60B19289249312FF001BE2F4 = {
+			isa = PBXGroup;
+			children = (
+				60B19294249312FF001BE2F4 /* Tracker-JKK */,
+				60FD763425057BB200CC2E2C /* Time Tracking Widget */,
+				60FD763125057BB200CC2E2C /* Frameworks */,
+				60B19293249312FF001BE2F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60B19293249312FF001BE2F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60B19292249312FF001BE2F4 /* Tracker-JKK.app */,
+				60FD763025057BB200CC2E2C /* Time Tracking Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60B19294249312FF001BE2F4 /* Tracker-JKK */ = {
+			isa = PBXGroup;
+			children = (
+				60FD765B250589E200CC2E2C /* Tracker-JKK.entitlements */,
+				60B19295249312FF001BE2F4 /* AppDelegate.swift */,
+				60B19297249312FF001BE2F4 /* SceneDelegate.swift */,
+				600FA0002516A1A90021D4CA /* CoreDataManager.swift */,
+				60B1929C249312FF001BE2F4 /* ContentView.swift */,
+				60878E7C24D7489200A2A7F4 /* TimingStatsView.swift */,
+				60878E7E24DE355F00A2A7F4 /* TimingBoxView.swift */,
+				60EF378924B951BE00DD6801 /* TimingSectionView.swift */,
+				60B192B0249313C3001BE2F4 /* TimerLabelView.swift */,
+				60EF378724B94F5200DD6801 /* TimingView.swift */,
+				60B1929E24931301001BE2F4 /* Assets.xcassets */,
+				60B192A324931301001BE2F4 /* LaunchScreen.storyboard */,
+				60B192A624931301001BE2F4 /* Info.plist */,
+				60B19299249312FF001BE2F4 /* TimeLog.xcdatamodeld */,
+				60B192A024931301001BE2F4 /* Preview Content */,
+			);
+			path = "Tracker-JKK";
+			sourceTree = "<group>";
+		};
+		60B192A024931301001BE2F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60B192A124931301001BE2F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		60FD763125057BB200CC2E2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60FD763225057BB200CC2E2C /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60FD763425057BB200CC2E2C /* Time Tracking Widget */ = {
+			isa = PBXGroup;
+			children = (
+				60FD765A250589C800CC2E2C /* Time Tracking Widget.entitlements */,
+				60FD763525057BB200CC2E2C /* TodayViewController.swift */,
+				60FD763725057BB200CC2E2C /* MainInterface.storyboard */,
+				60FD763A25057BB200CC2E2C /* Info.plist */,
+			);
+			path = "Time Tracking Widget";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60B19291249312FF001BE2F4 /* Tracker-JKK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60B192A924931301001BE2F4 /* Build configuration list for PBXNativeTarget "Tracker-JKK" */;
+			buildPhases = (
+				60B1928E249312FF001BE2F4 /* Sources */,
+				60B1928F249312FF001BE2F4 /* Frameworks */,
+				60B19290249312FF001BE2F4 /* Resources */,
+				60FD763E25057BB300CC2E2C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60FD763C25057BB300CC2E2C /* PBXTargetDependency */,
+			);
+			name = "Tracker-JKK";
+			productName = "Tracker-JKK";
+			productReference = 60B19292249312FF001BE2F4 /* Tracker-JKK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60FD762F25057BB200CC2E2C /* Time Tracking Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FD764125057BB300CC2E2C /* Build configuration list for PBXNativeTarget "Time Tracking Widget" */;
+			buildPhases = (
+				60FD762C25057BB200CC2E2C /* Sources */,
+				60FD762D25057BB200CC2E2C /* Frameworks */,
+				60FD762E25057BB200CC2E2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time Tracking Widget";
+			productName = "Time Tracking Widget";
+			productReference = 60FD763025057BB200CC2E2C /* Time Tracking Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60B1928A249312FF001BE2F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Jonathan Kummerfeld";
+				TargetAttributes = {
+					60B19291249312FF001BE2F4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					60FD762F25057BB200CC2E2C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 60B1928D249312FF001BE2F4 /* Build configuration list for PBXProject "Tracker-JKK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60B19289249312FF001BE2F4;
+			productRefGroup = 60B19293249312FF001BE2F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60B19291249312FF001BE2F4 /* Tracker-JKK */,
+				60FD762F25057BB200CC2E2C /* Time Tracking Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60B19290249312FF001BE2F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B192A524931301001BE2F4 /* LaunchScreen.storyboard in Resources */,
+				60B192A224931301001BE2F4 /* Preview Assets.xcassets in Resources */,
+				60B1929F24931301001BE2F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FD762E25057BB200CC2E2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605EBCEF2516F23200451CD8 /* Assets.xcassets in Resources */,
+				60FD763925057BB200CC2E2C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60B1928E249312FF001BE2F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B19296249312FF001BE2F4 /* AppDelegate.swift in Sources */,
+				60B19298249312FF001BE2F4 /* SceneDelegate.swift in Sources */,
+				60878E7D24D7489200A2A7F4 /* TimingStatsView.swift in Sources */,
+				60878E7F24DE356000A2A7F4 /* TimingBoxView.swift in Sources */,
+				60B1929D249312FF001BE2F4 /* ContentView.swift in Sources */,
+				60EF378A24B951BE00DD6801 /* TimingSectionView.swift in Sources */,
+				60B192B1249313C3001BE2F4 /* TimerLabelView.swift in Sources */,
+				60EF378824B94F5200DD6801 /* TimingView.swift in Sources */,
+				600FA0012516A1AA0021D4CA /* CoreDataManager.swift in Sources */,
+				60B1929B249312FF001BE2F4 /* TimeLog.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60FD762C25057BB200CC2E2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6094A1492517FD8200BE4DAE /* CoreDataManager.swift in Sources */,
+				60FD763625057BB200CC2E2C /* TodayViewController.swift in Sources */,
+				60FD765C25058AF400CC2E2C /* TimeLog.xcdatamodeld in Sources */,
+				6011DFD125184ABC002091AE /* TimerLabelView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60FD763C25057BB300CC2E2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60FD762F25057BB200CC2E2C /* Time Tracking Widget */;
+			targetProxy = 60FD763B25057BB300CC2E2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60B192A324931301001BE2F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60B192A424931301001BE2F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		60FD763725057BB200CC2E2C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60FD763825057BB200CC2E2C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60B192A724931301001BE2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60B192A824931301001BE2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60B192AA24931301001BE2F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Tracker-JKK/Tracker-JKK.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"Tracker-JKK/Preview Content\"";
+				DEVELOPMENT_TEAM = PB36GMX685;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tracker-JKK/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = name.jkk.TimeLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Time Log App Profile for Development";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60B192AB24931301001BE2F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Tracker-JKK/Tracker-JKK.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"Tracker-JKK/Preview Content\"";
+				DEVELOPMENT_TEAM = PB36GMX685;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tracker-JKK/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = name.jkk.TimeLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Time Log App Profile for Distribution";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60FD763F25057BB300CC2E2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Time Tracking Widget/Time Tracking Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PB36GMX685;
+				INFOPLIST_FILE = "Time Tracking Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = name.jkk.TimeLog.TodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Time Log App Extension Profile for Development";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60FD764025057BB300CC2E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Time Tracking Widget/Time Tracking Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PB36GMX685;
+				INFOPLIST_FILE = "Time Tracking Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = name.jkk.TimeLog.TodayExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Time Log App Extension Profile for Distribution";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60B1928D249312FF001BE2F4 /* Build configuration list for PBXProject "Tracker-JKK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B192A724931301001BE2F4 /* Debug */,
+				60B192A824931301001BE2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60B192A924931301001BE2F4 /* Build configuration list for PBXNativeTarget "Tracker-JKK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B192AA24931301001BE2F4 /* Debug */,
+				60B192AB24931301001BE2F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FD764125057BB300CC2E2C /* Build configuration list for PBXNativeTarget "Time Tracking Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FD763F25057BB300CC2E2C /* Debug */,
+				60FD764025057BB300CC2E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		60B19299249312FF001BE2F4 /* TimeLog.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				60B1929A249312FF001BE2F4 /* Tracker_JKK.xcdatamodel */,
+			);
+			currentVersion = 60B1929A249312FF001BE2F4 /* Tracker_JKK.xcdatamodel */;
+			path = TimeLog.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 60B1928A249312FF001BE2F4 /* Project object */;
+}

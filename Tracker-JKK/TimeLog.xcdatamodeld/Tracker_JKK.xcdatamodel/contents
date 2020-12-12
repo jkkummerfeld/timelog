@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PTimerLabel" representedClassName="PTimerLabel" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="position" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="timing" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PTiming" inverseName="timer" inverseEntity="PTiming"/>
+    </entity>
+    <entity name="PTiming" representedClassName="PTiming" syncable="YES" codeGenerationType="class">
+        <attribute name="endTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="startTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="timer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PTimerLabel" inverseName="timing" inverseEntity="PTimerLabel"/>
+    </entity>
+    <elements>
+        <element name="PTimerLabel" positionX="-463.01171875" positionY="196.484375" width="128" height="103"/>
+        <element name="PTiming" positionX="-252.0859375" positionY="196.59375" width="128" height="88"/>
+    </elements>
+</model>
